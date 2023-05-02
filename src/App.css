@@ -1,0 +1,160 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* *************************** */
+
+h5 {
+  margin: 8px auto 8px 0px;
+  text-align: left;
+}
+
+/*   */
+
+.navbar {
+  height: 60px;
+  margin: 0px;
+  display: flex;
+  align-content: center;
+  padding: 8px;
+  box-shadow: 0 3px 8px 0px rgba(40, 44, 52, 0.153);
+}
+
+.navbar > ul {
+  list-style: none;
+
+}
+
+.logo {
+  align-self: flex-start;
+}
+
+/*  */
+
+.hero--image {
+  width: 395px;
+  height: auto;
+  margin: 26px auto 32px auto;
+}
+
+.title {
+  margin: 32px auto 16px 36px;
+  text-align: left;
+}
+
+.description {
+  font-family: poppins;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17.6px;
+  text-align: left;
+  margin: 16px auto 49px 36px;
+  color: #222222;
+}
+
+.smaller {
+  font-size: 11px;
+  margin: auto;
+}
+
+/*  */
+
+.experience-container {
+  display: flex;
+  overflow: hidden;
+  margin: 0px;
+  max-width: min-content;
+}
+
+.card {
+  width: 176px;
+  margin: 9px 9px auto 37px;
+  overflow: hidden;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.cardImage {
+  width: 100%;
+  height: 235px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.statusBox {
+
+}
+
+.caption {
+  font-size: 12px;
+}
+
+.ratingContainer {
+  text-align: left;
+  color: #918E9B;
+}
+
+.star {
+  color: #FE395C;
+}
+
+.rating {
+  color: #222222;
+}
+
+.pricing {
+  text-align: left;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 8px;
+  font-weight: bold;
+}
