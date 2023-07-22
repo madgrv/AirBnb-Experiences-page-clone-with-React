@@ -1,5 +1,6 @@
 # AirBnb Experiences Page Clone with React
 
+![AirBnb Experiences Page Clone with React](https://github.com/madgrv/AirBnb-Experiences-page-clone-with-React/blob/main/Screenshot.png)
 
 ## About
 
